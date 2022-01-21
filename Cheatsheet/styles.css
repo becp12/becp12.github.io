@@ -1,0 +1,30 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border: 2px solid black;
+    color: MediumOrchid;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.introduction p {
+    text-align: center;
+}
+
+tbody .syntax {
+    color: blue;
+}
+
+tbody th , tbody td {
+    columns: 1 200px;
+    padding: 10px;
+    border: 2px solid black;
+}
