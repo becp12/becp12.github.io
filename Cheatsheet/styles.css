@@ -1,0 +1,70 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*main background colour*/
+body {
+    background-color: plum;
+}
+
+/*text headings*/
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    color: darkmagenta;
+}
+
+h2 {
+    text-align: center;
+    color: darkmagenta;
+    font-style: italic;
+}
+
+/*brief description of website, blurb */
+.introduction p {
+    text-align: center;
+}
+
+/*formatting for all tables*/
+table {
+    border: 2px solid black;
+    color: black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+/* specifics of table formatting*/
+
+/*formatting the cells in the body of all the tables*/
+tbody td {
+    width: 17%;
+}
+
+/*formatting of header for every table*/
+thead th{
+    background-color: mediumorchid;
+    color: white;
+}
+
+/*formatting that matches across the data cells and header cells*/
+thead th, tbody td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/*last column of each table excluding the heading row*/
+.description {
+    width: 63%;
+}
+
+/*first column of each table excluding the heading*/
+.syntax {
+    width: 20%;
+    color: blue;
+    font-family: "Lucida Console", Courier, monospace;
+    font-style: italic;
+}
