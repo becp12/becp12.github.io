@@ -1,0 +1,196 @@
+html {
+    display: flex;
+    font-size: 22px;
+    font-family: helvetica;
+    margin-top: -2px;
+}
+
+* {
+    color: seashell;
+    /* opacity: 0.9; */
+    /* border: 1px dotted hotpink; */
+    margin: 0px;
+}
+
+.body {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+section {
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.break {
+    width: 100%;
+}
+
+/*HEADER AND NAVIGATION*/
+
+.container {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    width: 157.141px;
+    margin-left: 10px;
+}
+
+ul.header-nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav {
+    display: inline-flex;
+    padding: 15px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+/*BANNER SECTION*/
+
+.banner {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    height: 700px;
+    background-image: url(Resources/Mission-Background.webp);
+    overflow: hidden;
+    background-size: none;
+    background-repeat: no-repeat;
+}
+
+.black-header-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    text-align: center;
+    font-size: 1em;
+    background-color: black;
+}
+
+/* MONTHLY TEA BANNER */
+
+.TeaMonth {
+    display: flex;
+    margin-top: 5%;
+    width: 1000px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.TeaMonthSubheading {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+/* MONTHLY TEA TILES */
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+section.TeaMonthTopTiles {
+    width: 1000px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+section.TeaMonthBottomTiles {
+    width: 675px;
+    justify-content: space-evenly;
+}
+
+section h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.TeaTiles {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.spacing {
+    padding: 7px;
+}
+
+/* LOCATION SECTION */
+
+section.location {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Resources/Locations-Background.webp);
+    height: 560px;
+    margin-top: 5%;
+}
+
+.address-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: space-around;
+    margin: 15px 40px;
+}
+
+.location-heading {
+    display: flex;
+    background-color: rgba(0 0 0 0.1);
+    justify-content: center;
+}
+
+/* CONTACT BANNER */
+
+.contact {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+
+.copyright-footer {
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.full {
+    width: 1200px;
+}

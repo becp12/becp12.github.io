@@ -1,0 +1,4 @@
+Tea Cozy Codecademy Flexbox Project
+- This has not been made entirely responsive
+- There are hardcoded pixel sizes so they will not be responsive
+- These pixel sizes were specified by the design spec
