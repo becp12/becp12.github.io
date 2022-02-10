@@ -1,0 +1,168 @@
+/*Font-Family: 'Shrikhand', Cursive;
+Font-Family: 'Fanwood Text', Serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Lobster', cursive;*/
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #2e4494;
+    font-weight: 700;
+}
+
+
+h2.main-header {
+    color: #511a61;
+    text-align: center;
+    margin-top: -45px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background-color: #dfd5f5;
+}
+
+/*SPECIFIC COLOR STYLING*/
+.color-panel {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+.palepurple {
+    background-color: #E495FC;
+}
+
+.midpurple {
+    background-color: #9D4CB5;
+}
+
+.deeppurple {
+    background-color: #511a61;
+}
+
+.darkestpurple {
+    background-color: #210429;
+}
+
+.paleblue {
+    background-color: #7d93e3;
+}
+
+.midblue {
+    background-color: #4e68c7;
+}
+
+.deepblue {
+    background-color: #2e4494;
+}
+
+.darkestblue {
+    background-color: #040c29;
+}
+
+/*SPECIFIC TEXT STYLING*/
+
+.lobster {
+    font-family: 'Lobster', cursive, sans-serif;
+}
+
+.shrikhand {
+    font-family: 'Shrikhand', Cursive, serif;
+}
+
+.fanwood {
+    font-family: 'Fanwood Text', Serif;
+}
+
+.patrick {
+    font-family: 'Patrick Hand', cursive, serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*TEXT STYLE SECTION*/
+
+.pageheadingstyle {
+    margin-top: -45px;
+}
+
+h2.text-panel {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    color: #511A61;
+}
+
+p.text-panel {
+    font-family: Fanwood, serif;
+    font-size: 20px;
+    color: #040c29;
+}
+
+h1.text-panel {
+    text-align: left;
+    margin-top: -10px;
+}
+
+/*BOX STYLING*/
+
+.fonts {
+    text-align: left;
+}
+
+.color {
+    text-align: left; 
+    padding-bottom: 20px;
+}
+
+section {
+    width:75%; /*makes box 75% of window width*/
+    margin: 20px auto; /*centers section box*/
+    padding-left: 20px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    background-color: white;
+ }
+
+ 
+section h2 {
+    border-collapse: collapse;
+    border-bottom: 3px inset #37373b;
+    margin-right: 20px;
+}
+
+ .font-panel {
+    display: inline-block;
+    width: 49%;
+ }
+
+ .color-panel h3 {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.text-panel {
+    border: none;
+}
